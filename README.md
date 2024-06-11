@@ -1,5 +1,8 @@
 # Projeto Página de Academia
 
+[![en](https://img.shields.io/badge/lang-en-brightgreen)](https://github.com/VFGarciaDev/projeto-academia/blob/main/README.en.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-blue)](https://github.com/VFGarciaDev/projeto-academia/blob/main/README.md)
+
 ## Índice
 - [Visão Geral](#🔍-visão-geral)
   - [Sobre](#📄-sobre-o-projeto)
@@ -53,9 +56,11 @@ Certifique-se de ter **Node.js** instalado no seu sistema. Em seguida, instale a
 
 ```
 npm install
-
+```
+```
 yarn install
-
+```
+```
 pnpm install
 ```
 
@@ -66,7 +71,8 @@ Use um nome descritivo para a sua branch, de preferência, usando [***convention
 
 ```
 git checkout -b <type>/<nova-funcionalidade>
-
+```
+```
 git checkout -b feature/nova-funcionalidade
 ```
 
@@ -78,9 +84,11 @@ Garanta que suas alterações não quebraram nenhum recurso existente. Execute o
 
 ```
 npm run test
-
+```
+```
 yarn test
-
+```
+```
 pnpm test
 ```
 
