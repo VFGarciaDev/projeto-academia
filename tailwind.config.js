@@ -9,11 +9,16 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      'mobile': '360px',
+      'tablet': '768px',
+      'desktop': '1024px',
+    },
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1.5rem",
       screens: {
-        "2xl": "1400px",
+        "xl": "1280px",
       },
     },
     extend: {
