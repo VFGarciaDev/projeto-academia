@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 0 0% 97%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -16,7 +16,7 @@
     --primary: 0 0% 9%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 0 0% 96.1%;
+    --secondary: 39 100% 54%;
     --secondary-foreground: 0 0% 9%;
 
     --muted: 0 0% 96.1%;
@@ -36,8 +36,8 @@
   }
 
   .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 10%;
+    --foreground: 210 40% 98%;
 
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -48,7 +48,7 @@
     --primary: 0 0% 98%;
     --primary-foreground: 0 0% 9%;
 
-    --secondary: 0 0% 14.9%;
+    --secondary: 39 100% 54%;
     --secondary-foreground: 0 0% 98%;
 
     --muted: 0 0% 14.9%;
@@ -77,8 +77,9 @@
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
