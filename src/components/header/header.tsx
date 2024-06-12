@@ -52,7 +52,7 @@ export const Header = () => {
                                     href={href}
                                     key={index}
                                     className="text-lg underline underline-offset-[3px] font-semibold decoration-2 px-4 pt-2 pb-3 rounded-full 
-                                    hover:bg-black hover:text-white dark:text-secondary">
+                                    hover:bg-black hover:text-secondary dark:hover:text-white dark:text-secondary">
                                     {label}
                                 </a>
                             ))}
